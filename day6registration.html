@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <div>
+    <h2>Registration Form</h2>
+    <form>
+        <div>
+            <label>First name :</label>
+            <input type="text" placeholder="First Name" required />
+        </div>
+        <div>
+            <label>Last name :</label>
+            <input type="text" placeholder="Last Name" required />
+        </div>
+        <div>
+            <label>DOB :</label>
+            <input type="date" required />
+        </div>
+        <div>
+            <p> Select your gender :</p>
+    
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">MALE</label><br />
+    
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">FEMALE</label><br />
+        </div>
+        <div>
+            <p>Enter your present address :</p>
+            <textarea></textarea>
+            <input type="checkbox"   value="yes" /> 
+            <label> Present address same as permanent  address </label>
+           
+        </div>
+        <div>
+            <label for="card">Select credit card want to apply :</label>
+            <select id="card">
+                <option value="visa">VISA</option>
+                <option value="master">MASTER</option>
+                <option value="rupay">RUPAY</option>
+            </select>
+        </div>
+        <input type="submit"/>
+        <input type="reset"/>
+    </form>
+    </div>
+</html>
