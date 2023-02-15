@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: lemonchiffon;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #7c2020;
+    border: 3px solid #7c2020;
+    padding: 3px;
+    margin: 4px;
+    background-color: beige;
+}
+
+nav {
+    border: 3px solid rebeccapurple;
+    margin: 4px;
+    padding: 3px;
+    background-color: azure;
+}
+
+img {
+    margin: 1px 10px;
+    text-decoration-thickness: 3px;
+    
+}
+
+a {
+    color: #5b1f7c;
+    font-size: 30px;
+    margin: 1px 10px;
+    text-decoration: underline #5b1f7c solid 3px;
+
+}
+
+p {
+
+    font: 30px/40px 'Babylonica', cursive;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+    color: #5b1f7c;
+    border: 3px dotted rgb(179, 147, 31);
+    padding: 3px;
+    margin: 4px;
+    background-color: azure;
+
+}
+
+footer {
+    padding: 3px;
+    margin: 4px;
+    border: 3px solid #7c2020;
+    background-color: beige;
+}
