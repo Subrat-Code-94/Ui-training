@@ -36,7 +36,11 @@ a {
 
 }
 
-p {
+a[href*=".jpg"]{
+    color:red
+}
+
+div ~ p {
 
     font: 30px/40px 'Babylonica', cursive;
     letter-spacing: 2px;

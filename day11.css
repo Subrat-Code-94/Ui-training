@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #000;
+    --font-family: arial;
+    --secondary-color: rgb(56, 177, 151);
+}
+
+body {
+    font: 18px var(--font-family);
+}
+
+main {
+    margin: 0 auto;
+    background: var(--secondary-color);
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h1+p {
+    margin-bottom: 40px;
+}
+
+.about>h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.about>p {
+    margin-bottom: 10px;
+}
+
+main> :first-child {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.portfolio>section,
+.experience>section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+input:is([type=text], [type=email]) {
+    border: 2x solid #999;
+    border-radius: 5px;
+    padding: 2px;
+    height: 28px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Desktop: min-width=992pxtabs: min-width=768px mobile: max-width=600px*/
+@media screen and (min-width:992px) {
+    main {
+        width: 1200px;
+    }
+
+    main> :first-child {
+        flex-direction: row;
+    }
+
+    .portfolio>section,
+    .experience>section {
+        justify-content: left;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+}
